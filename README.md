@@ -71,12 +71,12 @@ Run the application by specifying the input file (image or video):
 When executed, the application will display the input with annotated bounding boxes. If a drowning event is detected, an audible alarm will be played.
 
 ## Project Structure
-  .
-  ├── app.py             # Main application file
-  ├── best.pt            # Trained YOLOv8 model weights
-  ├── sound
-  │   └── alarm.wav      # Alert sound file
-  └── README.md          # Project documentation
+    .
+    ├── app.py             # Main application file
+    ├── best.pt            # Trained YOLOv8 model weights
+    ├── sound
+    │   └── alarm.wav      # Alert sound file
+    └── README.md          # Project documentation
 
 ## Model Training
 The YOLOv8 model used in this application was trained on a dataset from Roboflow containing images labeled as drowning, swimming, and out of water. You can see the training code in "Drown_detect.ipynb".
